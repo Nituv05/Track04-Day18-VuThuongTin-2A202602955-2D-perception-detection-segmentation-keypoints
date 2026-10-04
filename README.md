@@ -1,6 +1,10 @@
 # Lab 18 — 2D Perception: Detection · Segmentation · Keypoints (Track 4)
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/VinUni-AI20k/Track04-Day18-2D-perception-detection-segmentation-keypoints/blob/main/lab_2d_perception_student.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Nituv05/Track04-Day18-VuThuongTin-2A202602955-2D-perception-detection-segmentation-keypoints/blob/main/lab_2d_perception_student.ipynb)
+
+**Bài đã hoàn thành:** [notebook có output](lab_2d_perception_student.ipynb), [kết quả JSON](submission/ket_qua.json), [nhãn YOLO-seg](submission/autolabel/bus.txt), [báo cáo chạy](submission/BAO_CAO_CHAY.md) và [hướng dẫn](HUONG_DAN_CHAY.md).
+
+Notebook đã chạy lại từ đầu trên RTX 4090: 53/53 ô code không lỗi, 19 hình kết quả, đủ Q1–Q12 và các kiểm tra bắt buộc, không dùng phao. Fine-tune YOLO26n-pose chạy 40 epoch ở imgsz 640: Box mAP50–95 = **0,9056**, Pose mAP50 = **0,9950**, Pose mAP50–95 = **0,4285**. Q11 phân tích hai lỗi chân trên ảnh val thực tế; AP bonus đã hoàn thành. Phần bonus 4C và bài tập ONNX/auto-label bổ sung chưa thực hiện.
 
 > 🏭 Camera ở cổng nhà máy cần biết: **có bao nhiêu người**, **ai không đội mũ bảo hộ**, và **có ai vừa ngã**.
 > Bạn dùng một model hay ba — và output của mỗi model trông như thế nào?
